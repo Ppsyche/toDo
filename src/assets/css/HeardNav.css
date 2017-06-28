@@ -1,0 +1,27 @@
+.top{
+	background: #CCC;
+	overflow: hidden;
+	/*display: none;*/
+}
+.test{
+	display: none;
+}
+.top img{
+	width: 3rem;
+	padding: 1rem;
+	background: none;
+}
+.top img.jia{
+	width: 2rem;
+	padding: 1.5rem;
+}
+.top img,.top h2{
+	float: left;
+}
+.top button{
+	float: right;
+}
+.top h2{
+	line-height: 5rem;
+	color: rgba(0,0,0,.6);
+}
