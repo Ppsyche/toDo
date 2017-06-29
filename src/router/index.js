@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HeardNav from '@/components/HeardNav'
-import PopUp from '@/components/pop/PopUp'
-import PopUpTop from '@/components/pop/PopUpTop'
+import TodoMain from '@/components/TodoMain'
+import PopUp from '@/components/PopUp'
 
 Vue.use(Router)
 
@@ -10,18 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HeardNav',
-      component: HeardNav
+      name: 'TodoMain',
+      component: TodoMain
     },
     {
-      path: '/pop',
-      name: '/pop/PopUp',
+      path: '/',
+      name: 'PopUp',
       component: PopUp
-    },
-    {
-      path: '/pop',
-      name: '/pop/PopUpTop',
-      component: PopUpTop
     }
   ]
 })
