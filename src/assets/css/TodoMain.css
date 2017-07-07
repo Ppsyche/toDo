@@ -1,0 +1,56 @@
+.top{
+	background: #CCC;
+	overflow: hidden;
+	/*display: none;*/
+}
+.top img{
+	width: 3rem;
+	padding: 1rem;
+	background: none;
+}
+.top img.jia{
+	width: 2rem;
+	padding: 1.5rem;
+}
+.top img,.top h2{
+	float: left;
+}
+.top button{
+	float: right;
+}
+.top h2{
+	line-height: 5rem;
+	color: rgba(0,0,0,.6);
+}
+.body{
+	border: 0;
+	font-size: 1.5rem;
+}
+.body li{
+	width: 100%;
+	line-height: 3rem;
+	/*padding: 0 .5rem;*/
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.body li .left{
+	float: left;
+	width: 60%;
+	height: 3rem;
+	padding-left: 5%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.body li .right{
+	width: 20%;
+	height: 3rem;
+	float: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 1rem;
+}
+.body li .rightt{
+	float: right;
+	width: 1rem;
+	padding-right: 3%;
+}
